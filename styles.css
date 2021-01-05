@@ -1,7 +1,9 @@
 /* <!-- اضافة خط --> */
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 /*  نرتب شريط التنقل العلوي */
-body {background-color: #EDE7E3 ;margin: 0; background-size: cover;} 
+
+body {  background-size:cover;width: 100%;
+  height: 100%;}
  
 
 ul {
@@ -14,23 +16,23 @@ ul {
 }
 .menu a:hover { text-decoration: none;}
 /* ترتيب العناصر  */
-.flex-container{display: flex; justify-content:space-between; flex-direction: row;  background-color:#FF715B; opacity:90% ; height: 100px;padding-top: 15px;margin: 0px; }
-
+.flex-container{display: flex; justify-content:space-between; flex-direction: row;  background-color:#FF715B; opacity:90% ; height: 100px;padding-top: 15px;margin: 0px;}
+/* تعديل خواص شريط التنقل */
 .menu { display: flex;justify-content: space-evenly; align-items:center; padding-right: 10%; padding-bottom: 10px;font-family: Shadows Into Light;font-size: 15pt; font-weight: bold;}
 .logo { display: flex;  align-items: left;  padding-right: 40%;  }
  img.myimage  {border-radius: 50%; width:100px }
 /* يظهر لون عند التمرير بالماوس */
 .menu a:hover { background-color: ivory;}
 /* خواص الشريط الجانبي */
-.sidenava {display: flex;flex-direction: column;justify-content: left; align-items: center; position:absolute;  width: 100px; background-color:#E5E9EC ;height: 300%;;}
-.sidenava a{display: block;  
-  text-decoration: none;padding:100px;}
-  .sidenava a:hover { text-decoration: none;}
+.sidenava {display: flex;flex-direction: column;justify-content: left;  align-items: center; position:absolute;  width: 100px; background-color:#E5E9EC ;height:300%;}
+.sidenava a{display: block; padding: 50px;
+  text-decoration: none; font-family:Shadows Into Light ; }
+  .sidenava a:hover { text-decoration: none;background-color: ivory;  }
 /* تعديل قائمة المفضلات */
 .F1 {   margin-left: 300px; margin-top: 70px; margin-bottom: 50px; }
 .favorites { display:flex; margin-left: 350px;  }
 .card {padding: 30px; box-shadow: 15px  30px 30px #2B2D42 ; opacity: inherit; background-color: #EDF2F4 !important;}
-img.card-img-top:hover { border: lightcoral;}
+img.card-img-top:hover {transform: scaleY(1.5) scaleX(1.5);}
 img.card-img-top { width:200px }
 .card-title {text-align: center;}
 /* تعديل خواص البوستر */
